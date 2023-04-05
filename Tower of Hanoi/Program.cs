@@ -13,11 +13,13 @@ namespace Tower_of_Hanoi
         }
         static void Main(string[] args)
         {
+
             int disc = 3;
             char start = 'A';
             char mid = 'B';
             char end = 'C';
             hanoi(disc, start, mid, end);
+
         }
     }
 }
